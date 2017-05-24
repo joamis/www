@@ -1,0 +1,109 @@
+body
+{
+	background-color:#2F3336;
+	color: #efefef;
+	font-family: 'Bree Serif', serif;
+	font-size:20px;
+}
+
+h1.logo
+{
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	padding-left:100px;
+}
+
+
+nav
+{
+		background-color: #1c74b2;
+		text-align:center;
+}
+
+.menu
+{
+	list-sty-type:none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 40px;
+	line-height:200%
+}
+
+.menu > li
+{
+	display:inline-block;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.menu a
+{
+	text-decoration:none;
+	color: #ddd;
+}
+
+.menu a:hover
+{
+	color: #fff;
+}
+
+
+.aktualnosci
+{
+	margin-left: auto;
+	margin-right: auto;
+	min-height:600px;
+	width:30%;
+	text-align:center;
+	padding: 0;
+	float:left;
+	background-color:#B0C4DE;
+}
+.wydarzenia
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+	text-align:center;
+	padding: 0;
+	float:left;
+	background-color:#708090;
+	min-height:600px;
+}
+
+.filmy
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	text-align:center;
+	padding: 0;
+	background-color:#008B8B;
+	min-height:400px;
+	
+}
+
+.stopka
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	text-align:center;
+	padding: 0;
+	clear:both;
+	background-color:black;
+}
+
+h1
+{
+	font-size:30px;
+	font-weight:400;
+	color:#00008B;
+	margin-bottom:20px;
+}
