@@ -1,28 +1,31 @@
 body
 {
-	background-color:#2F3336;
-	color: #efefef;
-	font-family: 'Bree Serif', serif;
-	font-size:20px;
+		background-color: #111740!important;
+		font-family:'Cinzel', serif;
 }
+
+
+
 
 h1.logo
 {
-	font-size: 44px;
-	font-weight: 700;
-	color: #ddd;
+	font-size: 60px;
+	font-weight: 800;
+	color: black;
 	text-transform:uppercase;
-	letter-spacing:5px;
-	margin-top: 50px;
-	margin-bottom: 40px;
+	letter-spacing:10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	padding-left:100px;
+	font-family:'Cinzel', serif;
 }
 
 
 nav
 {
-		background-color: #1c74b2;
 		text-align:center;
+		color:black;
+		font-family:'Cinzel', serif;
 }
 
 .menu
@@ -32,7 +35,7 @@ nav
 	padding: 10px;
 	font-size: 18px;
 	min-height: 40px;
-	line-height:200%
+	line-height:200%;
 }
 
 .menu > li
@@ -40,17 +43,21 @@ nav
 	display:inline-block;
 	padding-left:20px;
 	padding-right:20px;
+	font-size:25px;
+	
 }
 
 .menu a
 {
 	text-decoration:none;
-	color: #ddd;
+	color: black;
+	font-weight:700;
 }
-
 .menu a:hover
 {
-	color: #fff;
+	color: red;
+	cursor:pointer;
+	text-decoration:none;
 }
 
 
@@ -59,35 +66,46 @@ nav
 	margin-left: auto;
 	margin-right: auto;
 	min-height:600px;
-	width:30%;
-	text-align:center;
+	width:50%;
+	text-align:left;
 	padding: 0;
+	background-color:#233159;
+	overflow-y:scroll;
 	float:left;
-	background-color:#B0C4DE;
+	color:black;
+	font-family:'Cinzel', serif;
 }
+
 .wydarzenia
 {
 	margin-left: auto;
 	margin-right: auto;
-	width:70%;
-	text-align:center;
+	text-align:left;
 	padding: 0;
-	float:left;
-	background-color:#708090;
-	min-height:600px;
+	background-color:#233159;
+	min-height:600px ;
+	overflow-y:scroll;
+	width:50%;
+	float: left;
+	color: black;
+	font-family:'Cinzel', serif;
 }
 
-.filmy
+#wyd
 {
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;
-	text-align:center;
+	text-align:left;
 	padding: 0;
-	background-color:#008B8B;
-	min-height:400px;
-	
+	width:50%;
+	float: left;
+	color: black;
+	font-family:'Cinzel', serif;
+	font-weight: 800;
+	padding-left:30px;
 }
+
+
 
 .stopka
 {
@@ -97,13 +115,21 @@ nav
 	text-align:center;
 	padding: 0;
 	clear:both;
-	background-color:black;
 }
 
-h1
-{
-	font-size:30px;
-	font-weight:400;
-	color:#00008B;
-	margin-bottom:20px;
-}
+
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img 
+ {
+      width: 100%;
+      margin: auto;
+	  max-height: 500px !important;
+	  
+ }
+ 
+ .carousel-inner > .item > .carousel-caption > .napis
+ 
+ {
+	 color:black;
+ }
