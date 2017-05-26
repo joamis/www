@@ -3,20 +3,22 @@ body
 		background-color: black!important;
 		font-family:'Cinzel', serif;
 		color:#808080;
+	    padding:40px;
+		padding-bottom:0 !important;
+		padding-top:0 !important;
 		
 }
 
 
 h1.logo
 {
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: 800;
 	color:#2F4F4F;
 	text-transform:uppercase;
 	letter-spacing:10px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	padding-left:100px;
 	font-family:'Cinzel', serif;
 }
 
@@ -65,9 +67,9 @@ nav
 	margin-left: auto;
 	margin-right: auto;
 	height: 600px !important ;
-	width:35%;
+	width:40%;
 	text-align:left;
-	background-color:darkgrey !important;
+	background-color:#808080;
 	overflow-y:scroll;
 	float:left;
 	font-family:'Cinzel', serif;
@@ -78,17 +80,15 @@ nav
 
 .wydarzenia
 {
-	margin-left: auto;
-	margin-right: auto;
 	text-align:left;
-	background-color:#A9A9A9 !important;
+	background-color:#808080;
 	min-height:600px ;
 	overflow-y:scroll;
 	width:50%;
 	height: 600px !important ;
 	float: right;
 	font-family:'Cinzel', serif;
-	padding-right:20px !important;
+	padding:40px !important;
 
 	
 }
@@ -109,7 +109,7 @@ nav
 .film
 {
 	weight:100%;
-	background-color:	#A9A9A9;
+	background-color:#808080;
 	position:relative;
 	
 	
@@ -139,8 +139,8 @@ nav
 	margin-right: auto;
 	width:100%;
 	text-align:center;
-	padding: 0;
 	clear:both;
+	padding:10px;
 }
 
 
