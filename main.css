@@ -1,17 +1,17 @@
 body
 {
-		background-color: #111740!important;
+		background-color: black!important;
 		font-family:'Cinzel', serif;
+		color:#808080;
+		
 }
-
-
 
 
 h1.logo
 {
 	font-size: 60px;
 	font-weight: 800;
-	color: black;
+	color:#2F4F4F;
 	text-transform:uppercase;
 	letter-spacing:10px;
 	margin-top: 30px;
@@ -24,7 +24,6 @@ h1.logo
 nav
 {
 		text-align:center;
-		color:black;
 		font-family:'Cinzel', serif;
 }
 
@@ -50,8 +49,8 @@ nav
 .menu a
 {
 	text-decoration:none;
-	color: black;
 	font-weight:700;
+	color:#808080;
 }
 .menu a:hover
 {
@@ -61,19 +60,20 @@ nav
 }
 
 
-.aktualnosci
+.premiery
 {
 	margin-left: auto;
 	margin-right: auto;
-	min-height:600px;
-	width:50%;
+	height: 600px !important ;
+	width:35%;
 	text-align:left;
-	padding: 0;
-	background-color:#233159;
+	background-color:darkgrey !important;
 	overflow-y:scroll;
 	float:left;
-	color:black;
 	font-family:'Cinzel', serif;
+	padding-left:20px !important;
+	
+
 }
 
 .wydarzenia
@@ -81,14 +81,16 @@ nav
 	margin-left: auto;
 	margin-right: auto;
 	text-align:left;
-	padding: 0;
-	background-color:#233159;
+	background-color:#A9A9A9 !important;
 	min-height:600px ;
 	overflow-y:scroll;
 	width:50%;
-	float: left;
-	color: black;
+	height: 600px !important ;
+	float: right;
 	font-family:'Cinzel', serif;
+	padding-right:20px !important;
+
+	
 }
 
 #wyd
@@ -99,13 +101,37 @@ nav
 	padding: 0;
 	width:50%;
 	float: left;
-	color: black;
 	font-family:'Cinzel', serif;
 	font-weight: 800;
 	padding-left:30px;
 }
 
+.film
+{
+	weight:100%;
+	background-color:	#A9A9A9;
+	position:relative;
+	
+	
+}
 
+.obrazek
+{
+	padding:20px;
+	float:left;
+	display:inline;
+}
+
+
+
+
+.tekst
+{
+	padding-top:130px;
+	weight:40%;
+	text-align: justify;
+	color:black;
+}
 
 .stopka
 {
@@ -128,8 +154,28 @@ nav
 	  
  }
  
- .carousel-inner > .item > .carousel-caption > .napis
+ 
+ h3.napis
+ {
+	  
+	  font-size: 45px !important;
+	  font-weight: bold;
+	  font-family:'Cinzel', serif !important;
+ }
+	 
+ }
+ 
+ 
+.carousel-caption 
  
  {
-	 color:black;
+	 
+	 font-family:'Cinzel', serif !important;
+	 font-size: 30px !important;
+	 
  }
+
+
+
+
+ 
